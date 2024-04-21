@@ -1,0 +1,44 @@
+name: Update posts
+
+on:
+  issues:
+    types: [opened, edited]
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/index.yml'
+
+env:
+  GH_TOKEN: ${{ github.token }}
+
+jobs:
+  list-issues:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: List Issues
+      env:
+        TZ: Asia/Taipei
+      run: |
+        ISSUES=$(
+          gh issue list \
+            --json 'number,title,url,updatedAt,labels' \
+            --jq '.[] | "- [#\(.number) \(.title)](\(.url))\n   - \(.labels | map("\(.name)") | join(", "))\n   - 最後更新：\(.updatedAt | fromdate | strflocaltime("%Y/%m/%d %H:%M:%S %Z"))"'
+        )
+        cat > README.md << __EOF__
+        # github-issue-blog
+
+        <!-- posts -->
+        $ISSUES
+        <!-- /posts -->
+        __EOF__
+
+    - name: Commit Changes
+      run: |
+        git config --global user.name 'GitHub Actions Bot'
+        git config --global user.email 'actions@github.com'
+        git add README.md
+        git commit -m "Update README"
+        git push
