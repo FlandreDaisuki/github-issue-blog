@@ -1,1 +1,49 @@
 # github-issue-blog
+
+<!-- posts -->
+- [#15 Graceful Shutdown 造成的錯誤](https://github.com/FlandreDaisuki/github-issue-blog/issues/15)
+   - nginx, web, k8s
+   - 最後更新：2023/11/05 22:19:44 CST
+- [#14 不要在 `computed` 裡寫 side effects！！！](https://github.com/FlandreDaisuki/github-issue-blog/issues/14)
+   - web, vue
+   - 最後更新：2023/11/05 17:54:47 CST
+- [#13 Linux 玩家就是要自給自足](https://github.com/FlandreDaisuki/github-issue-blog/issues/13)
+   - web, game
+   - 最後更新：2023/03/01 21:45:15 CST
+- [#12 Cloudflare Pages 踩雷筆記](https://github.com/FlandreDaisuki/github-issue-blog/issues/12)
+   - cloudflare, web
+   - 最後更新：2022/10/29 23:47:53 CST
+- [#11 管理時間限定的新功能引導](https://github.com/FlandreDaisuki/github-issue-blog/issues/11)
+   - JavaScript, web, vue
+   - 最後更新：2022/10/25 10:12:18 CST
+- [#10 一個 utility function 造成的瀏覽器分頁 Out Of Memory 事件](https://github.com/FlandreDaisuki/github-issue-blog/issues/10)
+   - web
+   - 最後更新：2022/08/21 17:44:32 CST
+- [#9 從 Laravel template 到反向代理](https://github.com/FlandreDaisuki/github-issue-blog/issues/9)
+   - nginx, laravel
+   - 最後更新：2022/06/11 16:23:55 CST
+- [#8 使用 Nginx Proxy Manager 管理本機端反向代理](https://github.com/FlandreDaisuki/github-issue-blog/issues/8)
+   - dns, nginx
+   - 最後更新：2024/04/16 21:10:58 CST
+- [#7 用 Gmail 當作自訂域名信箱](https://github.com/FlandreDaisuki/github-issue-blog/issues/7)
+   - dns, cloudflare, email
+   - 最後更新：2022/06/11 18:01:29 CST
+- [#6 `Promise#then()` 是 ES6 以來最大的污點？！](https://github.com/FlandreDaisuki/github-issue-blog/issues/6)
+   - JavaScript
+   - 最後更新：2022/06/11 15:47:27 CST
+- [#5 自動化裁剪網頁遊戲影片](https://github.com/FlandreDaisuki/github-issue-blog/issues/5)
+   - ffmpeg, ImageMagick
+   - 最後更新：2021/11/21 16:19:18 CST
+- [#4 下載 google drive 沒有下載權限的影片](https://github.com/FlandreDaisuki/github-issue-blog/issues/4)
+   - curl, youtube-dl
+   - 最後更新：2021/11/21 16:01:40 CST
+- [#3 初學 OCaml 之二](https://github.com/FlandreDaisuki/github-issue-blog/issues/3)
+   - OCaml
+   - 最後更新：2024/04/21 15:17:58 CST
+- [#2 初學 OCaml](https://github.com/FlandreDaisuki/github-issue-blog/issues/2)
+   - OCaml
+   - 最後更新：2024/04/21 15:17:45 CST
+- [#1 Webpack 把 class name 改掉害程式炸了](https://github.com/FlandreDaisuki/github-issue-blog/issues/1)
+   - JavaScript, web
+   - 最後更新：2023/11/05 18:04:56 CST
+<!-- /posts -->
