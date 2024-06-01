@@ -1,6 +1,9 @@
 # github-issue-blog
 
 <!-- posts -->
+- [#16 重新認識 OOP 的繼承問題](https://github.com/FlandreDaisuki/github-issue-blog/issues/16)
+   - OOP
+   - 最後更新：2024/06/01 17:56:15 CST
 - [#15 Graceful Shutdown 造成的錯誤](https://github.com/FlandreDaisuki/github-issue-blog/issues/15)
    - nginx, web, k8s
    - 最後更新：2023/11/05 22:19:44 CST
