@@ -27,7 +27,7 @@
    - 最後更新：2022/06/11 16:23:55 CST
 - [#8 使用 Nginx Proxy Manager 管理本機端反向代理](https://github.com/FlandreDaisuki/github-issue-blog/issues/8)
    - dns, nginx
-   - 最後更新：2024/04/16 21:10:58 CST
+   - 最後更新：2024/06/19 15:27:12 CST
 - [#7 用 Gmail 當作自訂域名信箱](https://github.com/FlandreDaisuki/github-issue-blog/issues/7)
    - dns, cloudflare, email
    - 最後更新：2022/06/11 18:01:29 CST
