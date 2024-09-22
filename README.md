@@ -1,9 +1,9 @@
 # github-issue-blog
 
 <!-- posts -->
-- [#17 復用未刪除的 docker container volume](https://github.com/FlandreDaisuki/github-issue-blog/issues/17)
+- [#17 重複使用未刪除的 docker container volume](https://github.com/FlandreDaisuki/github-issue-blog/issues/17)
    - docker
-   - 最後更新：2024/09/22 14:14:40 CST
+   - 最後更新：2024/09/22 14:37:30 CST
 - [#16 重新認識 OOP 的繼承問題](https://github.com/FlandreDaisuki/github-issue-blog/issues/16)
    - OOP
    - 最後更新：2024/07/28 00:45:17 CST
